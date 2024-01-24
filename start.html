@@ -4,32 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wordle</title>
+    <title>Green Whiz</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet"/>
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 10px; /* Adjusted margin for smaller screens */
+            background-image: url("wallpaper.jpeg");
+            background-size: cover;
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            color: #0d4918;
+            font-size: 24px; /* Adjusted font size for smaller screens */
+        }
+
+        .keyboard-button {
+            font-size: 14px; /* Adjusted font size for smaller screens */
+            padding: 8px; /* Adjusted padding for smaller screens */
+        }
+    </style>
 </head>
-<style>body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 50px;
-    background-image: url("wallpaper.jpeg");
-    background-size: cover;
-    backdrop-filter: blur(10px);
-}
-h1{
-    color: #0d4918;
-
-}</style>
 <body>
-    <h1> Green Whiz </h1>
+    <h1>Green Whiz</h1>
     
-    <div id="game-board">
-
-    </div>
+    <div id="game-board"></div>
 
     <div id="keyboard-cont">
         <div class="first-row">
@@ -68,11 +71,11 @@ h1{
         </div>
     </div>
 
-<script
-src="https://code.jquery.com/jquery-3.6.0.min.js"
-integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-<script src="script.js" type="module"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="script.js" type="module"></script>
 </body>
 </html>
