@@ -7,15 +7,7 @@ h1 {
      align-items: center;
      flex-direction: column;
    }
-   /* Add this CSS to your existing styles */
-@media only screen and (max-width: 600px) {
-  .keyboard-button {
-      font-size: 14px; /* Adjust font size */
-      padding: 8px; /* Adjust padding */
-      margin: 4px; /* Adjust margin */
-  }
-}
-
+   @media screen and (max-width:600px){
    .letter-box {
      border: 2px solid gray;
      border-radius: 3px;
@@ -28,8 +20,19 @@ h1 {
      justify-content: center;
      align-items: center;
      text-transform: uppercase;
-   }
-   
+   }}
+   .letter-box {
+    border: 2px solid gray;
+    border-radius: 3px;
+    margin: 2px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
    .filled-box {
      border: 2px solid black;
    }
