@@ -7,7 +7,15 @@ h1 {
      align-items: center;
      flex-direction: column;
    }
-   
+   /* Add this CSS to your existing styles */
+@media only screen and (max-width: 600px) {
+  .keyboard-button {
+      font-size: 14px; /* Adjust font size */
+      padding: 8px; /* Adjust padding */
+      margin: 4px; /* Adjust margin */
+  }
+}
+
    .letter-box {
      border: 2px solid gray;
      border-radius: 3px;
