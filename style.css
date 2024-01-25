@@ -2,6 +2,17 @@ h1 {
     text-align: center;
    }
    
+  /* Override Toastr styles to remove blur */
+#toast-container {
+    filter: none;
+    -webkit-filter: none;
+}
+
+.toast {
+    background-color: rgba(9, 9, 56, 0.9) !important;
+    backdrop-filter: none !important;
+}
+
    #game-board {
      display: flex;
      align-items: center;

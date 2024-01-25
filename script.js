@@ -9,12 +9,17 @@ const wasteManagementWords = ["flush", "green", "sweep", "plant", "reuse","solar
 
 // Array of waste management-related information
 const wasteManagementInfo = [
-  "In Singapore, recycling efforts have increased significantly over the years.",
-  "Did you know that Singapore incinerates a large portion of its waste to generate energy?",
-  "Singapore aims to become a zero-waste nation, promoting sustainable waste management practices.",
-  "Waste segregation is crucial for effective waste management in Singapore.",
-  "The National Environment Agency (NEA) plays a key role in overseeing waste management initiatives.",
+  "Singapore faces challenges in waste management, with limited land space for disposal. Pulau Semakau remains the only landfill for Singapore as of now",
+  "Incineration is a common practice in Singapore, helping to reduce the volume of waste and generate energy. However, it raises environmental concerns.",
+  "To address waste issues, Singapore is actively promoting the 3R approach: Reduce, Reuse, and Recycle.",
+  "Efforts to achieve zero waste align with Sustainable Development Goal 12 (SDG 12) – Responsible Consumption and Production.",
+  "Waste segregation is essential to enhance recycling efficiency and reduce contamination.",
+  "NEA (National Environment Agency) oversees waste management, implementing policies and initiatives to drive sustainability.",
+  "Singapore has set ambitious targets, aiming to increase recycling rates and reduce overall waste generation.",
+  "Public awareness campaigns encourage citizens to adopt eco-friendly practices and contribute to waste reduction.",
+  "SDG 11 – Sustainable Cities and Communities is relevant, emphasizing the need for sustainable waste management practices in urban areas.",
 ];
+
 
 // Filter the WORDS array to include only waste management-related words
 const filteredWords = WORDS.filter(word => wasteManagementWords.includes(word));
