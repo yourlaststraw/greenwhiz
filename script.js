@@ -139,10 +139,13 @@ function checkGuess() {
     if (guessesRemaining === 0) {
       toastr.error("You've run out of guesses! Game over!");
       toastr.info(`The right word was: "${rightGuessString}"`);
-      
-      // Refresh the page
+      // Reload the page only if it's the last guess and it's wrong
       location.reload();
-    }
+  } else {
+      // Automatically show the waste management popup after each attempt
+      showWasteManagementPopup();
+  }
+  
   }
 }
 
