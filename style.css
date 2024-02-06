@@ -2,7 +2,7 @@ h1 {
     text-align: center;
    }
    
-  /* Override Toastr styles to remove blur */
+  /* Override Toastr default styles to remove blur */
 #toast-container {
     filter: none;
     -webkit-filter: none;
